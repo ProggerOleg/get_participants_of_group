@@ -4,9 +4,9 @@ from telethon.tl.types import InputPeerEmpty
 import telethon.sync
 import csv
 
-api_id = 16221141
-api_hash = '0c239b04ea487aedd6dc7e0f4f713c18'
-phone = '+380992506701'
+api_id = #insert your api_id
+api_hash = '' #insert your hash
+phone = '' #insert your phone number
 
 client = TelegramClient(phone, api_id, api_hash)
 client.connect()
